@@ -38,3 +38,30 @@ export type Tile =
   | { type: "treasure" }
   | { type: "goToJail" }
 
+export type GameRules = {
+  fullSetMultiplier: number
+
+  startingMoney: number
+
+  startPassBonus: number
+  startLandBonus: number
+
+  incomeTaxPercent: number
+  cashTaxPercent: number
+
+  jailTurns: number
+  jailFine: number
+
+  vacationBonus: number  
+
+}
+
+export type GameSettings = {
+  
+  numberOfPlayers: number
+
+  roomType: "public" | "private"
+
+  onlyLoggedInCanJoin: boolean
+
+}

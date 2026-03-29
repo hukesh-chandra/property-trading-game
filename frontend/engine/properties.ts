@@ -7,7 +7,7 @@ export const properties: Record<string, Property> = {
     price: 60,
     level: 0,
     colorGroup: "Egypt",
-    rentRule: { type: "normal", rents: [2, 6,10, 30, 90, 160, 250], houseCost: [50, 50, 50, 50, 75], houseSellValue: [25, 25, 25, 25, 35] },
+    rentRule: { type: "normal", rents: [2, 10, 30, 90, 160, 250], houseCost: [50, 50, 50, 50, 75], houseSellValue: [25, 25, 25, 25, 35] },
     mortgageValue: 30,
     isMortgaged: false
   },
@@ -18,7 +18,7 @@ export const properties: Record<string, Property> = {
     price: 60,
     level: 0,
     colorGroup: "Egypt",
-    rentRule: { type: "normal", rents: [4, 12, 20, 60, 180, 320, 450], houseCost: [50, 50, 50, 50, 75], houseSellValue: [25, 25, 25, 25, 35] },
+    rentRule: { type: "normal", rents: [4, 20, 60, 180, 320, 450], houseCost: [50, 50, 50, 50, 75], houseSellValue: [25, 25, 25, 25, 35] },
     mortgageValue: 30,
     isMortgaged: false
   },
@@ -40,7 +40,7 @@ export const properties: Record<string, Property> = {
     price: 100,
     level: 0,
     colorGroup: "UAE",
-    rentRule: { type: "normal", rents: [6, 20, 30, 90, 270, 400, 550], houseCost: [50, 50, 50, 50, 75], houseSellValue: [25, 25, 25, 25, 35] },
+    rentRule: { type: "normal", rents: [6, 30, 90, 270, 400, 550], houseCost: [50, 50, 50, 50, 75], houseSellValue: [25, 25, 25, 25, 35] },
     mortgageValue: 50,
     isMortgaged: false
   },
@@ -51,7 +51,7 @@ export const properties: Record<string, Property> = {
     price: 100,
     level: 0,
     colorGroup: "UAE",
-    rentRule: { type: "normal", rents: [6, 20, 30, 90, 270, 400, 550], houseCost: [50, 50, 50, 50, 75], houseSellValue: [25, 25, 25, 25, 35] },
+    rentRule: { type: "normal", rents: [6, 30, 90, 270, 400, 550], houseCost: [50, 50, 50, 50, 75], houseSellValue: [25, 25, 25, 25, 35] },
     mortgageValue: 50,
     isMortgaged: false
   },
@@ -62,7 +62,7 @@ export const properties: Record<string, Property> = {
     price: 120,
     level: 0,
     colorGroup: "UAE",
-    rentRule: { type: "normal", rents: [8, 30,40, 60, 180, 320, 450], houseCost: [50, 50, 50, 50, 75], houseSellValue: [25, 25, 25, 25, 35] },
+    rentRule: { type: "normal", rents: [8, 40, 60, 180, 320, 450], houseCost: [50, 50, 50, 50, 75], houseSellValue: [25, 25, 25, 25, 35] },
     mortgageValue: 60,
     isMortgaged: false
   },
@@ -73,7 +73,7 @@ export const properties: Record<string, Property> = {
     price: 140,
     level: 0,
     colorGroup: "Australia",
-    rentRule: { type: "normal", rents: [10, 33, 50, 150, 450, 625, 750], houseCost: [100, 100, 100, 100, 150], houseSellValue: [50, 50, 50, 50, 75] },
+    rentRule: { type: "normal", rents: [10, 50, 150, 450, 625, 750], houseCost: [100, 100, 100, 100, 150], houseSellValue: [50, 50, 50, 50, 75] },
     mortgageValue: 70,
     isMortgaged: false
   },
@@ -95,7 +95,7 @@ export const properties: Record<string, Property> = {
     price: 140,
     level: 0,
     colorGroup: "Australia",
-    rentRule: { type: "normal", rents: [10, 33, 50, 150, 450, 625, 750], houseCost: [100, 100, 100, 100, 150], houseSellValue: [50, 50, 50, 50, 75] },
+    rentRule: { type: "normal", rents: [10, 50, 150, 450, 625, 750], houseCost: [100, 100, 100, 100, 150], houseSellValue: [50, 50, 50, 50, 75] },
     mortgageValue: 70,
     isMortgaged: false
   },
@@ -106,7 +106,7 @@ export const properties: Record<string, Property> = {
     price: 160,
     level: 0,
     colorGroup: "Australia",
-    rentRule: { type: "normal", rents: [12, 40, 60, 180, 500, 700, 900], houseCost: [100, 100, 100, 100, 150], houseSellValue: [50, 50, 50, 50, 75] },
+    rentRule: { type: "normal", rents: [12, 60, 180, 500, 700, 900], houseCost: [100, 100, 100, 100, 150], houseSellValue: [50, 50, 50, 50, 75] },
     mortgageValue: 80,
     isMortgaged: false
   },
@@ -128,7 +128,7 @@ export const properties: Record<string, Property> = {
     price: 180,
     level: 0,
     colorGroup: "UK",
-    rentRule: { type: "normal", rents: [14, 46, 70, 200, 550, 750, 950], houseCost: [100, 100, 100, 100, 150], houseSellValue: [50, 50, 50, 50, 75] },
+    rentRule: { type: "normal", rents: [14, 70, 200, 550, 750, 950], houseCost: [100, 100, 100, 100, 150], houseSellValue: [50, 50, 50, 50, 75] },
     mortgageValue: 90,
     isMortgaged: false
   },
@@ -139,7 +139,7 @@ export const properties: Record<string, Property> = {
     price: 180,
     level: 0,
     colorGroup: "UK",
-    rentRule: { type: "normal", rents: [14, 46, 70, 200, 550, 750, 950], houseCost: [100, 100, 100, 100, 150], houseSellValue: [50, 50, 50, 50, 75] },
+    rentRule: { type: "normal", rents: [14, 70, 200, 550, 750, 950], houseCost: [100, 100, 100, 100, 150], houseSellValue: [50, 50, 50, 50, 75] },
     mortgageValue: 90,
     isMortgaged: false
   },
@@ -150,7 +150,7 @@ export const properties: Record<string, Property> = {
     price: 200,
     level: 0,
     colorGroup: "UK",
-    rentRule: { type: "normal", rents: [16, 60, 80, 220, 600, 800, 1000], houseCost: [100, 100, 100, 100, 150], houseSellValue: [50, 50, 50, 50, 75] },
+    rentRule: { type: "normal", rents: [16, 80, 220, 600, 800, 1000], houseCost: [100, 100, 100, 100, 150], houseSellValue: [50, 50, 50, 50, 75] },
     mortgageValue: 100,
     isMortgaged: false
   },
@@ -161,7 +161,7 @@ export const properties: Record<string, Property> = {
     price: 220,
     level: 0,
     colorGroup: "India",
-    rentRule: { type: "normal", rents: [18, 70, 90, 250, 700, 875, 1050], houseCost: [150, 150, 150, 150, 200], houseSellValue: [75, 75, 75, 75, 100] },
+    rentRule: { type: "normal", rents: [18, 90, 250, 700, 875, 1050], houseCost: [150, 150, 150, 150, 200], houseSellValue: [75, 75, 75, 75, 100] },
     mortgageValue: 110,
     isMortgaged: false
   },
@@ -172,7 +172,7 @@ export const properties: Record<string, Property> = {
     price: 220,
     level: 0,
     colorGroup: "India",
-    rentRule: { type: "normal", rents: [18, 70, 90, 250, 700, 875, 1050], houseCost: [150, 150, 150, 150, 200], houseSellValue: [75, 75, 75, 75, 100] },
+    rentRule: { type: "normal", rents: [18, 90, 250, 700, 875, 1050], houseCost: [150, 150, 150, 150, 200], houseSellValue: [75, 75, 75, 75, 100] },
     mortgageValue: 110,
     isMortgaged: false
   },
@@ -183,7 +183,7 @@ export const properties: Record<string, Property> = {
     price: 240,
     level: 0,
     colorGroup: "India",
-    rentRule: { type: "normal", rents: [20, 80, 100, 300, 750, 925, 1100], houseCost: [150, 150, 150, 150, 200], houseSellValue: [75, 75, 75, 75, 100] },
+    rentRule: { type: "normal", rents: [20, 100, 300, 750, 925, 1100], houseCost: [150, 150, 150, 150, 200], houseSellValue: [75, 75, 75, 75, 100] },
     mortgageValue: 120,
     isMortgaged: false
   },
@@ -205,7 +205,7 @@ export const properties: Record<string, Property> = {
     price: 260,
     level: 0,
     colorGroup: "China",
-    rentRule: { type: "normal", rents: [22, 90, 110, 330, 800, 975, 1150], houseCost: [150, 150, 150, 150, 200], houseSellValue: [75, 75, 75, 75, 100] },
+    rentRule: { type: "normal", rents: [22, 110, 330, 800, 975, 1150], houseCost: [150, 150, 150, 150, 200], houseSellValue: [75, 75, 75, 75, 100] },
     mortgageValue: 130,
     isMortgaged: false
   },
@@ -216,7 +216,7 @@ export const properties: Record<string, Property> = {
     price: 260,
     level: 0,
     colorGroup: "China",
-    rentRule: { type: "normal", rents: [22, 90, 110, 330, 800, 975, 1150], houseCost: [150, 150, 150, 150, 200], houseSellValue: [75, 75, 75, 75, 100] },
+    rentRule: { type: "normal", rents: [22, 110, 330, 800, 975, 1150], houseCost: [150, 150, 150, 150, 200], houseSellValue: [75, 75, 75, 75, 100] },
     mortgageValue: 130,
     isMortgaged: false
   },
@@ -238,7 +238,7 @@ export const properties: Record<string, Property> = {
     price: 280,
     level: 0,
     colorGroup: "China",
-    rentRule: { type: "normal", rents: [24, 100, 120, 360, 850, 1025, 1200], houseCost: [150, 150, 150, 150, 200], houseSellValue: [75, 75, 75, 75, 100] },
+    rentRule: { type: "normal", rents: [24, 120, 360, 850, 1025, 1200], houseCost: [150, 150, 150, 150, 200], houseSellValue: [75, 75, 75, 75, 100] },
     mortgageValue: 140,
     isMortgaged: false
   },
@@ -249,7 +249,7 @@ export const properties: Record<string, Property> = {
     price: 300,
     level: 0,
     colorGroup: "Russia",
-    rentRule: { type: "normal", rents: [26, 110, 130, 390, 900, 1100, 1275], houseCost: [200, 200, 200, 200, 300], houseSellValue: [100, 100, 100, 100, 150] },
+    rentRule: { type: "normal", rents: [26, 130, 390, 900, 1100, 1275], houseCost: [200, 200, 200, 200, 300], houseSellValue: [100, 100, 100, 100, 150] },
     mortgageValue: 150,
     isMortgaged: false
   },
@@ -260,7 +260,7 @@ export const properties: Record<string, Property> = {
     price: 300,
     level: 0,
     colorGroup: "Russia",
-    rentRule: { type: "normal", rents: [26, 110, 130, 390, 900, 1100, 1275], houseCost: [200, 200, 200, 200, 300], houseSellValue: [100, 100, 100, 100, 150] },
+    rentRule: { type: "normal", rents: [26, 130, 390, 900, 1100, 1275], houseCost: [200, 200, 200, 200, 300], houseSellValue: [100, 100, 100, 100, 150] },
     mortgageValue: 150,
     isMortgaged: false
   },
@@ -271,7 +271,7 @@ export const properties: Record<string, Property> = {
     price: 320,
     level: 0,
     colorGroup: "Russia",
-    rentRule: { type: "normal", rents: [28, 120, 150, 450, 1000, 1200, 1400], houseCost: [200, 200, 200, 200, 300], houseSellValue: [100, 100, 100, 100, 150] },
+    rentRule: { type: "normal", rents: [28, 150, 450, 1000, 1200, 1400], houseCost: [200, 200, 200, 200, 300], houseSellValue: [100, 100, 100, 100, 150] },
     mortgageValue: 160,
     isMortgaged: false
   },
@@ -293,7 +293,7 @@ export const properties: Record<string, Property> = {
     price: 350,
     level: 0,
     colorGroup: "USA",
-    rentRule: { type: "normal", rents: [35, 140, 175, 500, 1100, 1300, 1500], houseCost: [200, 200, 200, 200, 300], houseSellValue: [100, 100, 100, 100, 150] },
+    rentRule: { type: "normal", rents: [35, 175, 500, 1100, 1300, 1500], houseCost: [200, 200, 200, 200, 300], houseSellValue: [100, 100, 100, 100, 150] },
     mortgageValue: 175,
     isMortgaged: false
   },
@@ -304,7 +304,7 @@ export const properties: Record<string, Property> = {
     price: 400,
     level: 0,
     colorGroup: "USA",
-    rentRule: { type: "normal", rents: [50, 160, 200, 600, 1400, 1700, 2000], houseCost: [200, 200, 200, 200, 300], houseSellValue: [100, 100, 100, 100, 150] },
+    rentRule: { type: "normal", rents: [50, 200, 600, 1400, 1700, 2000], houseCost: [200, 200, 200, 200, 300], houseSellValue: [100, 100, 100, 100, 150] },
     mortgageValue: 200,
     isMortgaged: false
   }
